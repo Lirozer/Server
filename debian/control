@@ -1,0 +1,8 @@
+Package: my-server
+Version: 1.0-1
+Section: net
+Priority: optional
+Architecture: amd64
+Maintainer: liroz
+Description: TCP/UDP server
+

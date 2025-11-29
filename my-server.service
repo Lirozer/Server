@@ -1,0 +1,16 @@
+[Unit]
+Description = TCP/UDP Server
+After = network.target
+Wants = network.target
+
+[Service]
+Type = simple
+User = liroz
+Group = liroz
+ExecStart = /home/liroz/MyProjects/Server/server
+Restart = always
+RestartSec = 5
+StandardOutput = journal
+
+[Install]
+WantedBy = multi-user.target
