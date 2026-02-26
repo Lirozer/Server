@@ -4,10 +4,10 @@
 
 ## Установка
 
-\```bash
+```bash
 sudo dpkg -i server.deb
 sudo systemctl start my-server
-\```
+```
 
 ## Команды
 - /time - возврат текущего времени и даты
